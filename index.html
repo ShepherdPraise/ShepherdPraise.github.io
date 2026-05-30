@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shepherd Onoja — Senior DevOps Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav>
+  <a href="#home" class="nav-logo">Shepherd<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <a href="mailto:Shepherd.Praise.Onoja@gmail.com" class="nav-cta">hire me</a>
+  <button class="menu-btn" onclick="document.querySelector('.mobile-menu').classList.toggle('open')">☰</button>
+</nav>
+
+<div class="mobile-menu">
+  <a href="#about" onclick="this.closest('.mobile-menu').classList.remove('open')">about</a>
+  <a href="#experience" onclick="this.closest('.mobile-menu').classList.remove('open')">experience</a>
+  <a href="#skills" onclick="this.closest('.mobile-menu').classList.remove('open')">skills</a>
+  <a href="#projects" onclick="this.closest('.mobile-menu').classList.remove('open')">projects</a>
+  <a href="#contact" onclick="this.closest('.mobile-menu').classList.remove('open')">contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-left fade-up">
+    <div class="hero-eyebrow">open to new opportunities</div>
+    <h1>
+      Senior DevOps<br>
+      <span class="outline">Engineer &</span><br>
+      Cloud Admin
+    </h1>
+    <p class="hero-desc">
+      I design and operate cloud infrastructure that is secure, automated, and built to last.
+      6+ years across AWS, Azure, GCP — shipping reliable systems for fintech, ISPs, and enterprise clients.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">view my work</a>
+      <a href="#contact" class="btn-ghost">get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap fade-up" style="transition-delay:0.18s;">
+    <div class="photo-card-back">
+      <img src="standing.jpg" alt="Shepherd Onoja standing" />
+    </div>
+    <div class="photo-card-main">
+      <img src="closeup.jpg" alt="Shepherd Onoja" />
+    </div>
+    <div class="photo-badge">
+      <span class="photo-badge-num">6<span style="color:var(--accent);font-size:1rem;">+</span></span>
+      <span class="photo-badge-label">yrs experience</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <div class="section-label">about me</div>
+      <h2>Infrastructure engineer,<br>cloud architect, problem solver</h2>
+      <p>
+        I'm <strong>Shepherd Praise Onoja</strong>, a Senior DevOps Engineer and Cloud Administrator based in Nigeria,
+        with over 6 years of experience designing and maintaining production infrastructure for startups,
+        fintech companies, and enterprise clients.
+      </p>
+      <p>
+        My work spans the full infrastructure lifecycle — from architecting secure cloud environments on
+        AWS, Azure, and GCP, to automating deployments with Terraform and Ansible, to running
+        Kubernetes clusters at production scale. I'm equally comfortable at the network layer, having
+        designed and managed Cisco enterprise networks, SD-WAN deployments, and VoIP systems.
+      </p>
+      <p>
+        I'm currently pursuing a <strong>MIT Cybersecurity</strong> postgraduate at Miva Open University, and hold
+        the <strong>ISC2 Certified in Cybersecurity</strong> credential. I combine operational depth with a security-first mindset.
+      </p>
+      <div class="about-focus">
+        <div class="focus-item">CI/CD pipeline design with Jenkins, GitHub Actions, and Docker</div>
+        <div class="focus-item">Infrastructure as Code with Terraform and Ansible</div>
+        <div class="focus-item">Kubernetes orchestration and container management</div>
+        <div class="focus-item">Enterprise Cisco networking, firewalls, and SD-WAN</div>
+        <div class="focus-item">Security hardening — SSL/TLS, IAM, DNS, compliance</div>
+      </div>
+    </div>
+
+    <div class="stats-aside">
+      <div class="stat-card fade-up" style="transition-delay:0.08s;">
+        <div class="stat-card-num">6<span>+</span></div>
+        <div class="stat-card-label">Years of experience</div>
+      </div>
+      <div class="stat-card fade-up" style="transition-delay:0.14s;">
+        <div class="stat-card-num">99<span>.9%</span></div>
+        <div class="stat-card-label">Uptime delivered</div>
+      </div>
+      <div class="stat-card fade-up" style="transition-delay:0.2s;">
+        <div class="stat-card-num">80<span>%</span></div>
+        <div class="stat-card-label">Manual effort cut by automation</div>
+      </div>
+      <div class="cert-card fade-up" style="transition-delay:0.26s;">
+        <div class="cert-card-title">Certifications</div>
+        <ul class="cert-list">
+          <li>Certified in Cybersecurity — ISC2 (2025)</li>
+          <li>IT Security Specialist — LinkedIn Learning</li>
+          <li>Network Admin: Core Skills — LinkedIn Learning</li>
+          <li>Windows Server 2022 — LinkedIn Learning</li>
+          <li>Career Essentials in Sys Admin — Microsoft</li>
+          <li>Complete Networking Fundamentals — Udemy</li>
+          <li>Intro to IT & Cybersecurity — Cybrary</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label">work history</div>
+  <h2>Where I've built things</h2>
+  <div class="exp-list">
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Sep 2024 – Present</div>
+        <div class="exp-type">Full-time · On-site</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">Senior Project Engineer</div>
+        <div class="exp-company">Alfa O&amp;O Ventures</div>
+        <ul class="exp-bullets">
+          <li>Designed and deployed enterprise-grade <strong>Cisco network infrastructure</strong> (routers, switches, ASA/Firepower firewalls, ISE) with ISO 27001 and NIST compliance.</li>
+          <li>Managed on-premises servers (Windows &amp; Linux) including <strong>Active Directory, DNS, DHCP</strong>, and virtualization via VMware ESXi and Proxmox.</li>
+          <li>Administered <strong>Azure, Azure AD, Microsoft 365, and Zoho One</strong> with user provisioning, policy enforcement, and hybrid integrations.</li>
+          <li>Led <strong>SD-WAN and VoIP (CUCM)</strong> deployments, improving communication reliability and reducing costs across multi-site environments.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">Cisco</span><span class="exp-tag">Azure AD</span><span class="exp-tag">VMware ESXi</span><span class="exp-tag">Proxmox</span><span class="exp-tag">Microsoft 365</span><span class="exp-tag">SD-WAN</span><span class="exp-tag">CUCM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Sep 2024 – Aug 2025</div>
+        <div class="exp-type">Contract · Remote</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">SysAdmin | DevOps Engineer</div>
+        <div class="exp-company">Squaremetre (buysquaremetre.com)</div>
+        <ul class="exp-bullets">
+          <li>Designed and maintained <strong>Jenkins CI/CD pipelines</strong>, improving deployment speed and reducing production issues by over 70%.</li>
+          <li>Deployed containerized apps with <strong>Docker and Kubernetes</strong>, achieving 99.9% uptime across environments.</li>
+          <li>Automated infrastructure with <strong>Terraform, Ansible, and shell scripting</strong>, cutting manual effort by over 80% and reducing config drift.</li>
+          <li>Implemented monitoring with <strong>Prometheus, Grafana, and Datadog</strong>, improving incident response time significantly.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">Jenkins</span><span class="exp-tag">Kubernetes</span><span class="exp-tag">Terraform</span><span class="exp-tag">Ansible</span><span class="exp-tag">Prometheus</span><span class="exp-tag">Grafana</span><span class="exp-tag">Datadog</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Jan 2024 – Aug 2025</div>
+        <div class="exp-type">Contract · Remote</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">SysAdmin | DevOps Engineer</div>
+        <div class="exp-company">Beampay (usebeampay.com)</div>
+        <ul class="exp-bullets">
+          <li>Led migration of services from <strong>AWS to DigitalOcean</strong>, improving performance and achieving significant reduction in operational costs.</li>
+          <li>Engineered a <strong>Jenkins + Docker CI/CD pipeline</strong> that increased deployment frequency by 3× and reduced downtime by 75%.</li>
+          <li>Implemented IaC with <strong>Terraform and Ansible</strong> to automate infrastructure provisioning and enforce configuration consistency.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">AWS</span><span class="exp-tag">DigitalOcean</span><span class="exp-tag">Jenkins</span><span class="exp-tag">Docker</span><span class="exp-tag">Terraform</span><span class="exp-tag">Kubernetes</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Dec 2023 – Nov 2024</div>
+        <div class="exp-type">Full-time · Hybrid</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">SysAdmin | DevOps Engineer</div>
+        <div class="exp-company">HUIOSPAY LIMITED (huiospay.com)</div>
+        <ul class="exp-bullets">
+          <li>Administered cloud infrastructure across <strong>AWS, DigitalOcean, Render, and LeaseWeb</strong> for high availability and performance.</li>
+          <li>Reduced spam/phishing incidents by <strong>50%</strong> through advanced email security (DMARC, SPF, DKIM) and firewall hardening.</li>
+          <li>Led migration from <strong>Google Workspace to Microsoft 365</strong> with minimal disruption to business operations.</li>
+          <li>Tripled deployment frequency and cut downtime 75% via a <strong>Jenkins + Docker CI/CD pipeline</strong>.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">AWS</span><span class="exp-tag">DMARC/SPF/DKIM</span><span class="exp-tag">Microsoft 365</span><span class="exp-tag">Jenkins</span><span class="exp-tag">Docker</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Jan 2023 – Nov 2023</div>
+        <div class="exp-type">Full-time</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">Technical Manager | Network Admin | SysAdmin</div>
+        <div class="exp-company">Dotmac Technologies (dotmac.ng)</div>
+        <ul class="exp-bullets">
+          <li>Led the Network Operations Team, reducing incident response time by <strong>20%</strong> through effective routing, switching, and security resolution.</li>
+          <li>Managed the System Administration Team, delivering a <strong>15% reduction</strong> in server and local network downtime.</li>
+          <li>Directed Technical Support, achieving a <strong>40% increase</strong> in customer satisfaction ratings.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">Network Ops</span><span class="exp-tag">SysAdmin</span><span class="exp-tag">Firewall</span><span class="exp-tag">Domain Management</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item fade-up">
+      <div class="exp-meta">
+        <div class="exp-period">Jan 2022 – Dec 2022</div>
+        <div class="exp-type">Full-time</div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-role">Network Engineer | Server Maintenance</div>
+        <div class="exp-company">Suburban Fiber Company (suburbanfiberco.com)</div>
+        <ul class="exp-bullets">
+          <li>Administered guest Wi-Fi server infrastructure and improved network stability by <strong>20%</strong> through router and ONT configurations at business locations.</li>
+          <li>Reduced unresolved customer complaints by <strong>30%</strong> through on-site troubleshooting visits.</li>
+          <li>Designed network solutions for new locations using <strong>Microsoft Visio</strong>, increasing network reliability and scalability by 30%.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">Wi-Fi</span><span class="exp-tag">Cloud4wi</span><span class="exp-tag">ONT</span><span class="exp-tag">Microsoft Visio</span><span class="exp-tag">Captive Portal</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">technical skills</div>
+  <h2>Tools of the trade</h2>
+  <div class="skills-grid">
+    <div class="skill-card fade-up">
+      <div class="skill-category">Cloud Platforms</div>
+      <div class="skill-tags">
+        <span class="skill-tag">AWS</span>
+        <span class="skill-tag">Azure</span>
+        <span class="skill-tag">Google Cloud</span>
+        <span class="skill-tag">DigitalOcean</span>
+        <span class="skill-tag">Render</span>
+        <span class="skill-tag">LeaseWeb</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.05s;">
+      <div class="skill-category">Containers & Orchestration</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Kubernetes</span>
+        <span class="skill-tag">Docker Compose</span>
+        <span class="skill-tag">Nginx</span>
+        <span class="skill-tag">PM2</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.1s;">
+      <div class="skill-category">CI/CD & Automation</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Jenkins</span>
+        <span class="skill-tag">GitHub Actions</span>
+        <span class="skill-tag">Terraform</span>
+        <span class="skill-tag">Ansible</span>
+        <span class="skill-tag">Bash Scripting</span>
+        <span class="skill-tag">Python</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.15s;">
+      <div class="skill-category">Monitoring & Observability</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Prometheus</span>
+        <span class="skill-tag">Grafana</span>
+        <span class="skill-tag">Datadog</span>
+        <span class="skill-tag">SolarWinds</span>
+        <span class="skill-tag">Wireshark</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.2s;">
+      <div class="skill-category">Networking & Security</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Cisco (Routers / Switches)</span>
+        <span class="skill-tag">ASA / Firepower</span>
+        <span class="skill-tag">SD-WAN</span>
+        <span class="skill-tag">VoIP / CUCM</span>
+        <span class="skill-tag">DNS / DMARC / SPF</span>
+        <span class="skill-tag">SSL/TLS</span>
+        <span class="skill-tag">IAM</span>
+      </div>
+    </div>
+    <div class="skill-card fade-up" style="transition-delay:0.25s;">
+      <div class="skill-category">Systems & Virtualisation</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Linux (Ubuntu)</span>
+        <span class="skill-tag">Windows Server</span>
+        <span class="skill-tag">Active Directory</span>
+        <span class="skill-tag">VMware ESXi</span>
+        <span class="skill-tag">Proxmox</span>
+        <span class="skill-tag">Microsoft 365</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">selected projects</div>
+  <h2>Things I've shipped</h2>
+  <div class="projects-grid">
+
+    <div class="project-card fade-up">
+      <div class="project-num">01</div>
+      <div class="project-title">Payslate — Fintech Deployment Automation</div>
+      <div class="project-desc">
+        Led DevOps for Payslate (payslate.com.ng), a payment collection app. Established CI/CD pipelines for rapid iteration, conducted PCI DSS, OWASP, and NDPR security assessments, and hardened the Linux server infrastructure against unauthorized access.
+      </div>
+      <div class="project-metric">PCI DSS · OWASP · NDPR compliant</div>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span class="stack-tag">CI/CD</span>
+          <span class="stack-tag">Linux</span>
+          <span class="stack-tag">Security Audit</span>
+        </div>
+        <a href="https://payslate.com.ng" target="_blank" class="project-link">View site</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.08s;">
+      <div class="project-num">02</div>
+      <div class="project-title">AWS Multi-Tier Architecture</div>
+      <div class="project-desc">
+        Architected and deployed secure, scalable applications on AWS using best practices across compute, storage, networking, and databases. Designed VPCs with public/private subnets, Elastic Load Balancing, S3 static hosting, and fine-grained IAM with MFA enforcement.
+      </div>
+      <div class="project-metric">↑ Scalable · secure · cost-monitored</div>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span class="stack-tag">AWS EC2</span>
+          <span class="stack-tag">VPC</span>
+          <span class="stack-tag">S3</span>
+          <span class="stack-tag">IAM</span>
+          <span class="stack-tag">ELB</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.16s;">
+      <div class="project-num">03</div>
+      <div class="project-title">Dotmac Server Room Setup</div>
+      <div class="project-desc">
+        Directed end-to-end physical and logical infrastructure setup — physical rack installation, access control systems, network gear configuration, servers, and data protection. Ensured full compliance with industry standards from day one.
+      </div>
+      <div class="project-metric">Enterprise-grade from the ground up</div>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span class="stack-tag">Physical Infra</span>
+          <span class="stack-tag">Network Config</span>
+          <span class="stack-tag">Access Control</span>
+        </div>
+        <a href="https://dotmac.ng" target="_blank" class="project-link">View company</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-up" style="transition-delay:0.24s;">
+      <div class="project-num">04</div>
+      <div class="project-title">Beampay — AWS to DigitalOcean Migration</div>
+      <div class="project-desc">
+        Led a full cloud migration for Beampay from AWS to DigitalOcean — improving performance and significantly cutting operational costs. Rebuilt CI/CD pipelines with Jenkins and Docker, achieving a 3× increase in deployment frequency and 75% reduction in downtime.
+      </div>
+      <div class="project-metric">3× faster deploys · ↓75% downtime</div>
+      <div class="project-footer">
+        <div class="project-stack">
+          <span class="stack-tag">AWS</span>
+          <span class="stack-tag">DigitalOcean</span>
+          <span class="stack-tag">Jenkins</span>
+          <span class="stack-tag">Docker</span>
+        </div>
+        <a href="https://usebeampay.com" target="_blank" class="project-link">View site</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label">get in touch</div>
+    <h2>Let's work together</h2>
+    <div class="contact-wrapper">
+      <div class="contact-text fade-up">
+        <p>
+          I'm open to Senior DevOps, SRE, Cloud Infrastructure, and Network Engineering roles —
+          full-time, contract, or project-based. If you need someone who can own infrastructure
+          end-to-end, I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:Shepherd.Praise.Onoja@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            Shepherd.Praise.Onoja@gmail.com
+          </a>
+          <a href="tel:+2348122914627" class="contact-link">
+            <span class="contact-link-icon">☎</span>
+            +234 812 291 4627
+          </a>
+          <a href="https://www.linkedin.com/in/shepherd-onoja" target="_blank" class="contact-link">
+            <span class="contact-link-icon">in</span>
+            linkedin.com/in/shepherd-onoja
+          </a>
+          <a href="https://github.com/ShepherdPraise" target="_blank" class="contact-link">
+            <span class="contact-link-icon">⌥</span>
+            github.com/ShepherdPraise
+          </a>
+        </div>
+      </div>
+
+      <form class="fade-up" style="transition-delay:0.1s;" onsubmit="handleSubmit(event)">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Tell me about your project or role..." required></textarea>
+        <button type="submit">send message →</button>
+        <div id="form-status">✓ Message sent! I'll be in touch soon.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-name">Shepherd Praise Onoja<span>.</span></div>
+  <div class="footer-copy">© 2025 — Senior DevOps Engineer · Nigeria</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
